@@ -4,7 +4,8 @@
 #
 server.name: kibana
 server.host: "0"
-elasticsearch.url: http://elasticsearch:9200
+elasticsearch.url: https://elasticsearch:9200
+elasticsearch.ssl.verificationMode: none
 
 ## Disable X-Pack
 ## see https://www.elastic.co/guide/en/x-pack/current/xpack-settings.html
